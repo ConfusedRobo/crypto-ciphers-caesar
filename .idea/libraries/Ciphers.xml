@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Ciphers">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ciphers.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

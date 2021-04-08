@@ -1,0 +1,16 @@
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sample.Controller" alignment="center" spacing="10">
+    <TextField fx:id="textField" promptText="Your filepath" maxWidth="300"/>
+
+    <HBox alignment="BASELINE_CENTER" spacing="20">
+        <JFXButton style="-fx-background-color: pink" onAction="#setEncode" text="Encode"/>
+        <JFXButton style="-fx-background-color: lightblue" onAction="#setDecode" text="Decode"/>
+
+        <Spinner fx:id="key" min="1" max="26"/>
+    </HBox>
+</VBox>
